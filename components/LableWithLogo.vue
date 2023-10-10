@@ -8,7 +8,7 @@
       :class="{ 'text-myBlue': bgColor === '#f4f4f4' || bgColor === '#fff' }"
     >
       <slot />
-      <p>{{ text }}</p>
+      <p class="capitalize">{{ text }}</p>
     </div>
   </div>
 </template>

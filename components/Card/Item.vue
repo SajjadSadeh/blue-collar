@@ -8,7 +8,7 @@
     </div>
     <NuxtLink
       :to="'/' + type + '/' + data.id"
-      class="text-xl text-center w-full font-bold text-myBlue"
+      class="w-full text-xl font-bold text-center text-myBlue"
     >
       {{ data.title }}
     </NuxtLink>

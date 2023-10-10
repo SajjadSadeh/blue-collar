@@ -10,7 +10,7 @@
     />
     <div class="absolute inset-0 bg-[#1C2752] opacity-80 -z-20"></div>
     <p
-      class="absolute inset-0 z-30 flex items-center justify-center text-xl font-black text-white capitalize sm:text-2xl lg:text-4xl"
+      class="absolute inset-0 z-30 flex items-center justify-center text-xl font-black text-center text-white capitalize sm:text-2xl lg:text-4xl"
     >
       {{ title ? title : route.path.slice(1) }}
     </p>

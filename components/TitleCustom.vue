@@ -1,11 +1,16 @@
 <template>
   <div>
-    <h1 class="text-4xl font-extrabold capitalize text-myBlue">{{ text }}</h1>
+    <h1
+      class="text-2xl font-extrabold capitalize md:text-4xl sm:text-3xl text-myBlue"
+      :style="{ color: textColor ? textColor : '' }"
+    >
+      {{ text }}
+    </h1>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["text"],
+  props: ["text", "textColor"],
 };
 </script>

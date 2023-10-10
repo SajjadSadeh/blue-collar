@@ -49,6 +49,7 @@
     <!-- We Provide Your Future -->
     <div>
       <ImageContentContainer
+        class="p-4 lg:p-0"
         imageUrl="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/homepage.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvaG9tZXBhZ2UuanBnIiwiaWF0IjoxNjk2NjA4Njc0LCJleHAiOjMzMjMyNjA4Njc0fQ.NoUUltvf41icY8ZaV0YlZsoJD97S4O3jGjxgmH9_Fs8&t=2023-10-06T16%3A11%3A14.272Z"
       >
         <LableWithLogo text="Welcome BlueCollar" bgColor="#f4f4f4">
@@ -114,7 +115,7 @@
         </p>
 
         <!-- buttons -->
-        <div class="flex items-center justify-center gap-2 sm:gap-6 flex-wrap">
+        <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-6">
           <ButtonCusstom bgColor="white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -196,6 +197,7 @@
       <div class="mt-16">
         <Container class="bg-white">
           <ImageContentContainer
+            class="p-4 lg:p-8"
             isImageRight="true"
             imageUrl="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/Photo%20(1).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvUGhvdG8gKDEpLmpwZyIsImlhdCI6MTY5NjYxMzI3NiwiZXhwIjozMzIzMjYxMzI3Nn0.2L5BpqGDGRNhzACJFNtAgVm9Njq9JOSgRwI5a0M4pFw&t=2023-10-06T17%3A27%3A56.167Z"
           >
@@ -240,6 +242,81 @@
     <div class="bg-myWhite">
       <ServiceContainer />
     </div>
+
+    <!-- Check Our Recent Work -->
+    <div class="py-20 bg-myBlue">
+      <div class="flex flex-col items-center gap-6">
+        <LableWithLogo text="the projects" bg-color="#f4f4f4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            viewBox="0 0 25 25"
+            fill="none"
+          >
+            <path
+              d="M19.8591 10.5226V20.8376C19.8591 21.1321 19.8011 21.4237 19.6884 21.6957C19.5757 21.9678 19.4105 22.215 19.2023 22.4232C18.9941 22.6314 18.7469 22.7966 18.4748 22.9093C18.2028 23.022 17.9112 23.08 17.6167 23.08H4.16232C3.5676 23.08 2.99724 22.8437 2.5767 22.4232C2.15617 22.0027 1.91992 21.4323 1.91992 20.8376V7.3832C1.91992 6.78848 2.15617 6.21812 2.5767 5.79759C2.99724 5.37706 3.5676 5.14081 4.16232 5.14081H13.5512"
+              stroke="#FFB342"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M23.8457 1.22295C23.7614 1.1303 23.6592 1.05571 23.5452 1.00368C23.4312 0.951653 23.3079 0.923273 23.1827 0.920252C23.0574 0.917232 22.9328 0.939635 22.8165 0.986106C22.7002 1.03258 22.5944 1.10215 22.5057 1.19063L21.7919 1.90097C21.7054 1.98753 21.6568 2.1049 21.6568 2.22728C21.6568 2.34966 21.7054 2.46703 21.7919 2.5536L22.4463 3.2068C22.4892 3.2499 22.5402 3.2841 22.5963 3.30743C22.6525 3.33076 22.7127 3.34277 22.7735 3.34277C22.8343 3.34277 22.8945 3.33076 22.9507 3.30743C23.0068 3.2841 23.0578 3.2499 23.1007 3.2068L23.7967 2.51436C24.1487 2.16294 24.1816 1.59052 23.8457 1.22295ZM20.3486 3.34356L9.93112 13.7418C9.86795 13.8047 9.82204 13.8828 9.79781 13.9686L9.31594 15.4037C9.3044 15.4426 9.30358 15.4839 9.31358 15.5233C9.32357 15.5627 9.34401 15.5986 9.37273 15.6273C9.40145 15.6561 9.43739 15.6765 9.47676 15.6865C9.51613 15.6965 9.55746 15.6957 9.59641 15.6841L11.0305 15.2023C11.1162 15.1781 11.1943 15.1322 11.2573 15.069L21.6563 4.65113C21.7525 4.5539 21.8065 4.42265 21.8065 4.28587C21.8065 4.14909 21.7525 4.01783 21.6563 3.9206L21.0821 3.34356C20.9847 3.24648 20.8528 3.19197 20.7153 3.19197C20.5779 3.19197 20.446 3.24648 20.3486 3.34356Z"
+              fill="#FFB342"
+            />
+          </svg>
+        </LableWithLogo>
+        <TitleCustom text-color="#fff" text="Check Our Recent Work" />
+        <div class="flex max-w-[1280px] mx-auto gap-6 flex-wrap justify-center">
+          <div
+            v-for="item in projects"
+            :key="item.id"
+            class="max-w-[370px] w-full"
+          >
+            <CardItem :data="item" type="project" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Let’s Customize Work With Affordable Price -->
+    <div>
+      <PriceSection />
+    </div>
+
+    <!-- Latest News and Articles -->
+    <div class="px-2 py-20 bg-white">
+      <Container>
+        <div class="flex flex-col items-center gap-6">
+          <LableWithLogo text="Blog & Articles" bgColor="#f4f4f4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              viewBox="0 0 22 22"
+              fill="none"
+            >
+              <path
+                d="M18 9.1V18.875C18 19.1541 17.945 19.4304 17.8382 19.6882C17.7315 19.946 17.5749 20.1803 17.3776 20.3776C17.1803 20.5749 16.946 20.7315 16.6882 20.8382C16.4304 20.945 16.1541 21 15.875 21H3.125C2.56141 21 2.02091 20.7761 1.6224 20.3776C1.22388 19.9791 1 19.4386 1 18.875V6.125C1 5.56141 1.22388 5.02091 1.6224 4.6224C2.02091 4.22388 2.56141 4 3.125 4H12.0224"
+                stroke="#FFB342"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M21.7779 0.287101C21.698 0.199303 21.6011 0.128617 21.4931 0.0793146C21.3851 0.0300123 21.2682 0.00311756 21.1496 0.000255307C21.0309 -0.00260694 20.9128 0.0186228 20.8026 0.0626618C20.6923 0.106701 20.5921 0.172635 20.5081 0.256479L19.8316 0.929625C19.7496 1.01166 19.7036 1.12288 19.7036 1.23886C19.7036 1.35483 19.7496 1.46606 19.8316 1.54809L20.4518 2.1671C20.4924 2.20794 20.5407 2.24034 20.5939 2.26246C20.6472 2.28457 20.7042 2.29595 20.7618 2.29595C20.8195 2.29595 20.8765 2.28457 20.9297 2.26246C20.9829 2.24034 21.0313 2.20794 21.0719 2.1671L21.7314 1.5109C22.065 1.17789 22.0962 0.635431 21.7779 0.287101ZM18.4639 2.2967L8.59178 12.1506C8.53193 12.2102 8.48842 12.2842 8.46545 12.3655L8.00882 13.7254C7.99788 13.7623 7.9971 13.8015 8.00657 13.8388C8.01605 13.8761 8.03541 13.9102 8.06263 13.9374C8.08985 13.9646 8.12391 13.984 8.16121 13.9934C8.19852 14.0029 8.23769 14.0021 8.2746 13.9912L9.63357 13.5346C9.71486 13.5116 9.78888 13.4681 9.84849 13.4083L19.7031 3.53581C19.7943 3.44367 19.8454 3.31929 19.8454 3.18967C19.8454 3.06005 19.7943 2.93567 19.7031 2.84353L19.159 2.2967C19.0667 2.2047 18.9417 2.15304 18.8114 2.15304C18.6811 2.15304 18.5562 2.2047 18.4639 2.2967Z"
+                fill="#FFB342"
+              />
+            </svg>
+          </LableWithLogo>
+          <TitleCustom text="Latest News and Articles" />
+          <div class="flex flex-wrap justify-center gap-6">
+            <BlogItem v-for="item in blogItems" :key="item.id" :data="item" />
+          </div>
+        </div>
+      </Container>
+    </div>
   </div>
 </template>
 
@@ -247,4 +324,10 @@
 import { useElementSize } from "@vueuse/core";
 const image = ref(null);
 const { width, height } = useElementSize(image);
+
+const { data: projects } = await useFetch("/api/projects");
+projects.value = projects.value.filter((p) => p.id < 4);
+
+const { data: blogItems } = await useFetch("/api/blog");
+blogItems.value = blogItems.value.filter((b) => b.id < 3);
 </script>

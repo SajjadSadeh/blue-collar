@@ -1,4 +1,5 @@
 export default defineEventHandler((event) => {
+  const { id } = event.context.params;
   const teamMembers = [
     {
       id: 1,
@@ -43,5 +44,6 @@ export default defineEventHandler((event) => {
         "https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/Photo%20(10).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvUGhvdG8gKDEwKS5qcGciLCJpYXQiOjE2OTY2NzY0MTEsImV4cCI6MzMyMzI2NzY0MTF9.cDdtSY9Frfer-2YpgMn24Rk0O5ZdLzbmRhEJW7KNkJo&t=2023-10-07T11%3A00%3A11.426Z",
     },
   ];
-  return teamMembers;
+  const x = teamMembers.find((t) => t.id == id);
+  return x;
 });

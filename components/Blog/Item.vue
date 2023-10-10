@@ -6,8 +6,7 @@ import { NuxtLink } from '#build/components'; import { NuxtLink } from
       <img class="w-full" :src="data.imageUrl" alt="" />
       <div class="absolute left-0 right-0 flex justify-center -bottom-5">
         <div
-          bgColor="#FFC368"
-          class="flex items-center justify-center gap-2 px-2 py-1 sm:px-4 sm:py-2 bg-myOrange"
+          class="flex items-center justify-center gap-2 px-2 py-1 sm:px-4 sm:py-2 bg-[#FFC368]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +24,6 @@ import { NuxtLink } from '#build/components'; import { NuxtLink } from
         </div>
 
         <div
-          bgColor="#FFB342"
           class="flex items-center justify-center gap-2 px-2 py-1 sm:px-4 sm:py-2 bg-myOrange"
         >
           <svg

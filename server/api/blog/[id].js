@@ -42,4 +42,7 @@ export default defineEventHandler((event) => {
         "https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/Photo%20(12).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvUGhvdG8gKDEyKS5qcGciLCJpYXQiOjE2OTY3NTIwMjMsImV4cCI6MzMyMzI3NTIwMjN9.dhhhDzFh_2Wx4Wa_EvC_vbeXrreH20h_dVij1iT4FBk&t=2023-10-08T08%3A00%3A22.703Z",
     },
   ];
+  const { id } = event.context.params;
+  const x = blogItems.find((b) => b.id == id);
+  return x;
 });
