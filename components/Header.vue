@@ -91,7 +91,12 @@
       <Container>
         <div class="flex items-center justify-between py-2">
           <NuxtLink to="/">
-            <img class="w-40" src="/images/logo.png" alt="" />
+            <!-- logo -->
+            <img
+              class="w-40"
+              src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/Logo.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvTG9nby5wbmciLCJpYXQiOjE2OTcxODgyMTIsImV4cCI6MzMyMzMxODgyMTJ9.A1j0HDlW1gY2IpghHFDckiDKYdvu0ci-ztHXzBnn7EM&t=2023-10-13T09%3A10%3A13.649Z"
+              alt=""
+            />
           </NuxtLink>
           <div class="items-center justify-center hidden gap-3 sm:flex">
             <div class="flex items-center justify-center">

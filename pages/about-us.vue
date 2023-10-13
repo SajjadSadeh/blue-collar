@@ -227,7 +227,7 @@
               <div class="flex items-center gap-3">
                 <img
                   class="sm:inline-block"
-                  src="/images/FOR-ABOYT-PAGE.png"
+                  src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/FOR-ABOYT-PAGE.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvRk9SLUFCT1lULVBBR0UucG5nIiwiaWF0IjoxNjk3MTg4Mjg5LCJleHAiOjMzMjMzMTg4Mjg5fQ.mgEV1JG8ltLTEQgIbnR_MbM-AUheu-MQ4c5JCsekFfY&t=2023-10-13T09%3A11%3A30.706Z"
                   alt=""
                 />
                 <div class="relative p-6 bg-white text-myGray">
@@ -246,7 +246,7 @@
               <div class="flex items-center gap-3">
                 <img
                   class="sm:inline-block"
-                  src="/images/FOR-ABOYT-PAGE.png"
+                  src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/FOR-ABOYT-PAGE.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvRk9SLUFCT1lULVBBR0UucG5nIiwiaWF0IjoxNjk3MTg4Mjg5LCJleHAiOjMzMjMzMTg4Mjg5fQ.mgEV1JG8ltLTEQgIbnR_MbM-AUheu-MQ4c5JCsekFfY&t=2023-10-13T09%3A11%3A30.706Z"
                   alt=""
                 />
                 <div class="relative p-6 bg-white text-myGray">
@@ -265,7 +265,7 @@
               <div class="flex items-center gap-3">
                 <img
                   class="sm:inline-block"
-                  src="/images/FOR-ABOYT-PAGE.png"
+                  src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/FOR-ABOYT-PAGE.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvRk9SLUFCT1lULVBBR0UucG5nIiwiaWF0IjoxNjk3MTg4Mjg5LCJleHAiOjMzMjMzMTg4Mjg5fQ.mgEV1JG8ltLTEQgIbnR_MbM-AUheu-MQ4c5JCsekFfY&t=2023-10-13T09%3A11%3A30.706Z"
                   alt=""
                 />
                 <div class="relative p-6 bg-white text-myGray">

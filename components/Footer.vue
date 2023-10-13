@@ -39,7 +39,10 @@
             class="flex flex-col flex-wrap items-center justify-center w-full gap-6 md:justify-between sm:flex-row"
           >
             <div>
-              <img src="/images/white-logo.svg" alt="" />
+              <img
+                src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/white-logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvd2hpdGUtbG9nby5zdmciLCJpYXQiOjE2OTcxODgzMTIsImV4cCI6MzMyMzMxODgzMTJ9.iJ-_gs8u_NUPox_Nai9qx09akFDJAsfR_YBUV4WXv6Y&t=2023-10-13T09%3A11%3A54.321Z"
+                alt=""
+              />
             </div>
 
             <div class="flex items-center justify-center">
