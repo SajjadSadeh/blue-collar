@@ -12,7 +12,7 @@
         ref="image"
       />
       <Container>
-        <div class="flex flex-col items-start gap-8">
+        <div class="flex flex-col items-start gap-8" data-aos="fade-right">
           <LableWithLogo
             text="We Provide Electric Services For Industrial Project"
             bgColor="rgba(255, 255, 255, 0.20)"
@@ -47,7 +47,7 @@
     </div>
 
     <!-- We Provide Your Future -->
-    <div>
+    <div data-aos="fade-up-right">
       <ImageContentContainer
         class="p-4 lg:p-0"
         imageUrl="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/homepage.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvaG9tZXBhZ2UuanBnIiwiaWF0IjoxNjk2NjA4Njc0LCJleHAiOjMzMjMyNjA4Njc0fQ.NoUUltvf41icY8ZaV0YlZsoJD97S4O3jGjxgmH9_Fs8&t=2023-10-06T16%3A11%3A14.272Z"

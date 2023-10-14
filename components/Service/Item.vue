@@ -1,6 +1,7 @@
 <template>
   <div
     class="flex flex-col items-start gap-2 bg-myBlue text-myOrange max-w-[300px] p-3"
+    :data-aos="data.id % 2 ? 'fade-down-right' : 'fade-down-left'"
   >
     <div class="w-12" v-html="data.icon"></div>
     <p

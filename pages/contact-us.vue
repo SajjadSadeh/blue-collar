@@ -40,6 +40,7 @@
           <div class="flex min-[918px]:flex-row flex-col items-center">
             <!-- right -->
             <div
+              data-aos="fade-up-right"
               class="flex flex-col items-center justify-center gap-2 p-12 bg-myOrange"
             >
               <svg
@@ -62,7 +63,10 @@
             </div>
 
             <!-- middel -->
-            <div class="sm:p-12 p-10 bg-myBlue text-myOrange border-[#D2D2D2]">
+            <div
+              class="sm:p-12 p-10 bg-myBlue text-myOrange border-[#D2D2D2]"
+              data-aos="fade-up"
+            >
               <p class="text-xl font-bold text-center">Main Branch</p>
               <div
                 class="border-b-[1px] py-2 flex flex-col gap-1 min-w-[250px]"
@@ -95,6 +99,7 @@
             <!-- left -->
             <div
               class="flex flex-col items-center justify-center gap-2 p-12 bg-myOrange"
+              data-aos="fade-up-left"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

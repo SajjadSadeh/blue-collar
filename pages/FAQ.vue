@@ -41,6 +41,7 @@
           <div class="flex flex-col items-stretch gap-4">
             <div
               v-for="item in questionsAndAnswers"
+              data-aos="flip-down"
               :key="item.id"
               class="border-2 border-[#ddd ] py-2 px-4 max-w-[600px]"
             >

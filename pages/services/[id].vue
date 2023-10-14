@@ -11,6 +11,7 @@
             <div class="flex flex-col-reverse items-start gap-6 sm:flex-row">
               <!-- left side -->
               <div
+                data-aos="flip-left"
                 class="flex flex-col items-stretch justify-center w-full gap-4 sm:w-4/12 lg:w-1/5 sm:pr-6"
               >
                 <div
@@ -91,7 +92,10 @@
                 <div
                   class="flex flex-wrap items-center justify-center gap-6 p-12 sm:gap-0 bg-myWhite"
                 >
-                  <div class="flex w-full gap-2 px-1 py-3 md:w-1/2">
+                  <div
+                    class="flex w-full gap-2 px-1 py-3 md:w-1/2"
+                    data-aos="flip-up"
+                  >
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +122,10 @@
                     </div>
                   </div>
 
-                  <div class="flex w-full gap-2 px-1 py-3 md:w-1/2">
+                  <div
+                    class="flex w-full gap-2 px-1 py-3 md:w-1/2"
+                    data-aos="flip-up"
+                  >
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +156,10 @@
                     </div>
                   </div>
 
-                  <div class="flex w-full gap-2 px-1 py-3 md:w-1/2">
+                  <div
+                    class="flex w-full gap-2 px-1 py-3 md:w-1/2"
+                    data-aos="flip-up"
+                  >
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +187,10 @@
                     </div>
                   </div>
 
-                  <div class="flex w-full gap-2 px-1 py-3 md:w-1/2">
+                  <div
+                    class="flex w-full gap-2 px-1 py-3 md:w-1/2"
+                    data-aos="flip-up"
+                  >
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -226,6 +239,7 @@
                         v-for="item in properties"
                         :key="item"
                         class="flex items-center w-full gap-2 text-myGray"
+                        data-aos="fade-right"
                       >
                         <div v-html="tickIcon"></div>
                         <p>{{ item }}</p>

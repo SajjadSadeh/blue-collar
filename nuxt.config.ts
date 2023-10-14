@@ -3,4 +3,5 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
 
   devtools: { enabled: true },
+  plugins: [{ src: "~/plugins/aos", mode: "client" }],
 });

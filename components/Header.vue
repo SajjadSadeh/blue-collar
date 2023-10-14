@@ -3,10 +3,11 @@
     <div class="bg-myWhite text-myBlue">
       <Container>
         <div class="flex items-center justify-between py-1">
-          <p class="text-sm font-medium sm:text-base">
+          <p class="text-sm font-medium sm:text-base" data-aos="fade-right">
             Opening Hours: 06:00 to 20:00
           </p>
           <div
+            data-aos="fade-left"
             class="flex items-center justify-center gap-2 cursor-pointer font-xs"
           >
             <!-- instagram -->
@@ -90,7 +91,7 @@
     <div class="bg-white text-myBlue">
       <Container>
         <div class="flex items-center justify-between py-2">
-          <NuxtLink to="/">
+          <NuxtLink to="/" data-aos="fade-right">
             <!-- logo -->
             <img
               class="w-40"
@@ -98,7 +99,10 @@
               alt=""
             />
           </NuxtLink>
-          <div class="items-center justify-center hidden gap-3 sm:flex">
+          <div
+            class="items-center justify-center hidden gap-3 sm:flex"
+            data-aos="fade-left"
+          >
             <div class="flex items-center justify-center">
               <div class="p-3 rounded-full bg-myOrange">
                 <svg
@@ -159,7 +163,10 @@
     </div>
 
     <!-- menu desktop -->
-    <Container class="z-50 hidden lg:inline-block text-[#2F2F2F ]">
+    <Container
+      class="z-50 hidden lg:inline-block text-[#2F2F2F ]"
+      data-aos="fade-up"
+    >
       <div
         class="flex items-center justify-between px-1 py-2 bg-myOrange mb-[-2rem] z-10"
       >
@@ -174,7 +181,7 @@
           <NuxtLink to="/contact-us" class="px-2 py-1">contact us</NuxtLink>
         </div>
         <button class="px-4 py-2 text-white bg-myBlue">
-          Have Any Questions?
+          <NuxtLink to="/faq"> Have Any Questions?</NuxtLink>
         </button>
       </div>
     </Container>

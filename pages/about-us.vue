@@ -79,6 +79,7 @@
     <div class="flex flex-wrap items-center justify-center gap-12 pb-20">
       <div
         class="flex flex-col items-center justify-center gap-2 p-4 bg-myWhite"
+        data-aos="fade-up-right"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -101,6 +102,7 @@
 
       <div
         class="flex flex-col items-center justify-center gap-2 p-4 bg-myWhite"
+        data-aos="fade-up-right"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -123,6 +125,7 @@
 
       <div
         class="flex flex-col items-center justify-center gap-2 p-4 bg-myWhite"
+        data-aos="fade-up-left"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -142,6 +145,7 @@
 
       <div
         class="flex flex-col items-center justify-center gap-2 p-4 bg-myWhite"
+        data-aos="fade-up-left"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -228,7 +232,7 @@
             <div
               class="flex flex-col items-center justify-center gap-6 min-[450px]:gap-0"
             >
-              <div class="flex items-center gap-3">
+              <div class="flex items-center gap-3" data-aos="fade-down-left">
                 <img
                   class="sm:inline-block"
                   src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/FOR-ABOYT-PAGE.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvRk9SLUFCT1lULVBBR0UucG5nIiwiaWF0IjoxNjk3MTg4Mjg5LCJleHAiOjMzMjMzMTg4Mjg5fQ.mgEV1JG8ltLTEQgIbnR_MbM-AUheu-MQ4c5JCsekFfY&t=2023-10-13T09%3A11%3A30.706Z"
@@ -247,7 +251,7 @@
                 </div>
               </div>
 
-              <div class="flex items-center gap-3">
+              <div class="flex items-center gap-3" data-aos="fade-down-left">
                 <img
                   class="sm:inline-block"
                   src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/FOR-ABOYT-PAGE.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvRk9SLUFCT1lULVBBR0UucG5nIiwiaWF0IjoxNjk3MTg4Mjg5LCJleHAiOjMzMjMzMTg4Mjg5fQ.mgEV1JG8ltLTEQgIbnR_MbM-AUheu-MQ4c5JCsekFfY&t=2023-10-13T09%3A11%3A30.706Z"
@@ -266,7 +270,7 @@
                 </div>
               </div>
 
-              <div class="flex items-center gap-3">
+              <div class="flex items-center gap-3" data-aos="fade-down-left">
                 <img
                   class="sm:inline-block"
                   src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/FOR-ABOYT-PAGE.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvRk9SLUFCT1lULVBBR0UucG5nIiwiaWF0IjoxNjk3MTg4Mjg5LCJleHAiOjMzMjMzMTg4Mjg5fQ.mgEV1JG8ltLTEQgIbnR_MbM-AUheu-MQ4c5JCsekFfY&t=2023-10-13T09%3A11%3A30.706Z"

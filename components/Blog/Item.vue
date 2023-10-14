@@ -1,7 +1,10 @@
 import { NuxtLink } from '#build/components'; import { NuxtLink } from
 '#build/components'; import { ButtonCusstom } from '#build/components';
 <template>
-  <div class="max-w-[520px]">
+  <div
+    class="max-w-[520px]"
+    :data-aos="data.id % 2 ? 'fade-up-right' : 'fade-up-left'"
+  >
     <div class="relative w-full">
       <img class="w-full" :src="data.imageUrl" alt="" />
       <div class="absolute left-0 right-0 flex justify-center -bottom-5">

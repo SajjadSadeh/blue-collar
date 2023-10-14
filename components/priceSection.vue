@@ -45,6 +45,13 @@
           <div
             v-for="item in data"
             :key="item.id"
+            :data-aos="
+              item.id == 1
+                ? 'zoom-in-right'
+                : item.id == 2
+                ? 'zoom-in-down'
+                : 'zoom-in-left'
+            "
             class="flex flex-col items-start gap-6 p-4 bg-white shadow max-w-[350px] mx-auto"
           >
             <!-- price -->

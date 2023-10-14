@@ -49,6 +49,7 @@
           <div class="flex flex-col items-start gap-6 sm:flex-row justify-">
             <!-- left side -->
             <div
+              data-aos="flip-left"
               class="flex flex-col items-stretch justify-center w-full gap-4 sm:w-2/5 lg:w-1/5 sm:pr-6"
             >
               <ButtonCusstom bg-color="#FFB342" class="w-full">

@@ -20,6 +20,7 @@
               >
                 <div
                   class="flex items-center justify-center gap-2 px-2 py-1 sm:px-4 sm:py-2 bg-myOrange"
+                  data-aos="fade-right"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -38,6 +39,7 @@
 
                 <div
                   class="flex items-center justify-center gap-2 px-2 py-1 sm:px-4 sm:py-2 bg-[#FFC368]"
+                  data-aos="fade-down"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +57,7 @@
                 </div>
 
                 <div
-                  bgColor="#FFB342"
+                  data-aos="fade-left"
                   class="flex items-center justify-center gap-2 px-2 py-1 sm:px-4 sm:py-2 bg-myOrange"
                 >
                   <svg
