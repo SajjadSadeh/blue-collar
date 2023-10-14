@@ -26,10 +26,10 @@
                   <div class="flex flex-col items-center justify-center gap-4">
                     <p class="font-bold">Providing Varity Electical Services</p>
                     <ButtonCusstom bg-color="#FFB342">
-                      <div>
+                      <NuxtLink to="/pricing">
                         <p>Discount 25%</p>
                         <p class="font-bold">Rewiring Services</p>
-                      </div>
+                      </NuxtLink>
                     </ButtonCusstom>
                     <p>Click to Get Discout</p>
                   </div>

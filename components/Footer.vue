@@ -3,7 +3,7 @@
     <!-- Subscribe Our Newsletter -->
     <div class="bg-myOrange">
       <Container>
-        <div class="flex flex-col items-center px-2 md:flex-row">
+        <div class="flex flex-col items-center px-2 pb-6 md:flex-row">
           <div class="flex items-center py-20">
             <div class="w-full md:w-3/5">
               <TitleCustom text="Subscribe Our Newsletter" />
@@ -39,10 +39,12 @@
             class="flex flex-col flex-wrap items-center justify-center w-full gap-6 md:justify-between sm:flex-row"
           >
             <div>
-              <img
-                src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/white-logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvd2hpdGUtbG9nby5zdmciLCJpYXQiOjE2OTcxODgzMTIsImV4cCI6MzMyMzMxODgzMTJ9.iJ-_gs8u_NUPox_Nai9qx09akFDJAsfR_YBUV4WXv6Y&t=2023-10-13T09%3A11%3A54.321Z"
-                alt=""
-              />
+              <NuxtLink to="/">
+                <img
+                  src="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/white-logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvd2hpdGUtbG9nby5zdmciLCJpYXQiOjE2OTcxODgzMTIsImV4cCI6MzMyMzMxODgzMTJ9.iJ-_gs8u_NUPox_Nai9qx09akFDJAsfR_YBUV4WXv6Y&t=2023-10-13T09%3A11%3A54.321Z"
+                  alt=""
+                />
+              </NuxtLink>
             </div>
 
             <div class="flex items-center justify-center">
@@ -213,20 +215,19 @@
             >
               <div class="flex flex-col items-start gap-2">
                 <strong>Explore</strong>
-                <p>About Us</p>
-                <p>Projects</p>
-                <p>Offers</p>
-                <p>Pricing</p>
-                <p>FAQ</p>
+                <NuxtLink to="/about-us">About Us</NuxtLink>
+                <NuxtLink to="/projects">Projects</NuxtLink>
+                <NuxtLink to="/pricing">Pricing</NuxtLink>
+                <NuxtLink to="/faq">FAQ</NuxtLink>
               </div>
 
               <div class="flex flex-col items-start gap-2">
                 <strong>Quick Links</strong>
-                <p>Services</p>
-                <p>Blog</p>
-                <p>Contact Us</p>
-                <p>Service Request</p>
-                <p>Estimation Calculator</p>
+                <NuxtLink to="/services">Services</NuxtLink>
+                <NuxtLink to="/blog">Blog</NuxtLink>
+                <NuxtLink to="/contact-us">Contact Us</NuxtLink>
+                <NuxtLink to="">Service Request</NuxtLink>
+                <NuxtLink to="">Estimation Calculator</NuxtLink>
               </div>
 
               <div class="flex flex-col items-start gap-2">
@@ -235,7 +236,7 @@
                 <p>Changelog</p>
                 <p>Licenses</p>
                 <p>Protected</p>
-                <p>Page 404 Page</p>
+                <NuxtLink to="/sdvnsvn">Page 404 Page</NuxtLink>
               </div>
             </div>
           </div>

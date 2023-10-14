@@ -86,7 +86,7 @@
                 'bg-white': item.isPopular,
               }"
             >
-              buy now
+              <NuxtLink to="/pricing"> buy now </NuxtLink>
             </button>
           </div>
         </div>

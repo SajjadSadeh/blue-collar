@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "start": "npm start"
+    "start": "nuxt start"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

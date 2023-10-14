@@ -158,13 +158,14 @@
       </Container>
     </div>
 
-    <Container class="z-50">
+    <!-- menu desktop -->
+    <Container class="z-50 hidden lg:inline-block text-[#2F2F2F ]">
       <div
         class="flex items-center justify-between px-1 py-2 bg-myOrange mb-[-2rem] z-10"
       >
         <!-- items -->
         <div
-          class="flex items-center justify-center gap-5 capitalize text-[#2F2F2F] font-medium"
+          class="flex items-center justify-center gap-5 capitalize text-[#2F2F2F] font-bold"
         >
           <NuxtLink to="/" class="px-2 py-1">home</NuxtLink>
           <NuxtLink to="/about-us" class="px-2 py-1">about us</NuxtLink>
@@ -177,9 +178,86 @@
         </button>
       </div>
     </Container>
+
+    <!-- menu mobile -->
+    <Container class="z-50 inline-block lg:hidden">
+      <div
+        class="flex relative items-center justify-between px-1 py-2 bg-myOrange mb-[-2rem] z-10"
+      >
+        <!-- items -->
+        <button class="text-myWhite" @click="showMoblieMenu = !showMoblieMenu">
+          <div v-show="!showMoblieMenu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-menu-2"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 6l16 0"></path>
+              <path d="M4 12l16 0"></path>
+              <path d="M4 18l16 0"></path>
+            </svg>
+          </div>
+
+          <div v-show="showMoblieMenu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-x"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M18 6l-12 12"></path>
+              <path d="M6 6l12 12"></path>
+            </svg>
+          </div>
+        </button>
+        <div
+          v-show="showMoblieMenu"
+          class="absolute left-0 text-[#2F2F2F] font-bold right-0 flex flex-col items-start gap-2 px-4 py-2 -z-10 top-10 bg-myOrange"
+        >
+          <NuxtLink to="/" class="px-2 py-1">home</NuxtLink>
+          <NuxtLink to="/about-us" class="px-2 py-1">about us</NuxtLink>
+          <NuxtLink to="/services" class="px-1">services</NuxtLink>
+          <NuxtLink to="/blog" class="px-2 py-1">blog</NuxtLink>
+          <NuxtLink to="/contact-us" class="px-2 py-1">contact us</NuxtLink>
+        </div>
+        <ButtonCusstom
+          bg-color="#1C2752"
+          text-color="#fff"
+          class="hidden sm:block"
+        >
+          Have Any Questions?
+        </ButtonCusstom>
+      </div>
+    </Container>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      showMoblieMenu: false,
+    };
+  },
+  watch: {
+    $route(to, from) {
+      this.showMoblieMenu = false;
+    },
+  },
+};
 </script>

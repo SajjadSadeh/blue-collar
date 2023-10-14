@@ -4,10 +4,12 @@
       title="about us"
       imageUrl="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/Photo%20(2).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvUGhvdG8gKDIpLmpwZyIsImlhdCI6MTY5NjY2OTM4MiwiZXhwIjozMzIzMjY2OTM4Mn0.1y3dGv1IWAGowDaP7GFlUwh5HD1mmu3Rj9DFjGswW8A&t=2023-10-07T09%3A03%3A01.766Z"
     />
-    <div class="py-20">
+
+    <div class="px-2 py-20">
       <ImageContentContainer
         image-url="https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/Photo%20(5).jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvUGhvdG8gKDUpLmpwZyIsImlhdCI6MTY5NjY3MDkxNSwiZXhwIjozMzIzMjY3MDkxNX0.d-4KyipvwNcUik-_z7EgSv4zOCcSbyqmWeSJyPWE6-Y&t=2023-10-07T09%3A28%3A34.990Z"
         is-image-right="true"
+        class="p-4"
       >
         <LableWithLogo text="Welcome to BlueCollar" bgColor="#f4f4f4">
           <svg
@@ -60,7 +62,9 @@
           </div>
         </div>
         <div class="flex flex-wrap items-center w-full gap-5">
-          <ButtonCusstom bg-color="#FFB342"> More About Us </ButtonCusstom>
+          <ButtonCusstom bg-color="#FFB342">
+            <NuxtLink to="/team">More About Us</NuxtLink>
+          </ButtonCusstom>
           <div class="flex flex-col">
             <p class="text-sm underline text-myBlue">
               For Emergency Fixing or Appointment

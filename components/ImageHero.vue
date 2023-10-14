@@ -1,7 +1,7 @@
 <template>
   <div
     :style="{ height: height + 'px' }"
-    class="relative flex items-start justify-center max-w-[2000px] mx-auto overflow-hidden"
+    class="relative flex items-start justify-center max-w-[2000px] mx-auto overflow-hidden mt-8 sm:mt-0"
   >
     <img
       :src="imageUrl"
