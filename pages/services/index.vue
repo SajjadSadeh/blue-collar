@@ -183,4 +183,8 @@ const properties = ref([
 const tickIcon = ref(
   '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 33" fill="none"><circle cx="16" cy="16.9199" r="16" fill="#FFB342"/><path d="M23 11.9199L13.9 22.9199L10 18.7949" stroke="#1C2752" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 );
+
+useHead({
+  title: "Services ",
+});
 </script>

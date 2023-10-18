@@ -200,4 +200,8 @@ projects.value = projects.value.filter((p) => p.id < 4);
 
 const { data: blogItems } = await useFetch("/api/blog");
 blogItems.value = blogItems.value.filter((b) => b.id < 3);
+
+useHead({
+  title: "Blue Collar",
+});
 </script>

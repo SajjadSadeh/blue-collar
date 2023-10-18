@@ -149,4 +149,8 @@ const { data: blogItems } = await useFetch("/api/blog");
 blogItems.value = blogItems.value.filter(
   (b) => b.id % 2 !== route.params.id % 2
 );
+
+useHead({
+  title: "Blog " + route.params.id,
+});
 </script>

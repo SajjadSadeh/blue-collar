@@ -44,4 +44,8 @@
 
 <script setup>
 const { data: blogItems } = await useFetch("/api/blog");
+
+useHead({
+  title: "Blogs",
+});
 </script>

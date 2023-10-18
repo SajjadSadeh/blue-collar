@@ -43,4 +43,8 @@
 
 <script setup>
 const { data: projects } = await useFetch("/api/projects");
+
+useHead({
+  title: "Projects ",
+});
 </script>

@@ -339,4 +339,8 @@ const tickIcon = ref(
 );
 const { data: teamMembers } = await useFetch("/api/team");
 teamMembers.value = teamMembers.value.filter((m) => m.id < 4);
+
+useHead({
+  title: "About Us",
+});
 </script>

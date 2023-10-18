@@ -130,6 +130,10 @@ const questionsAndAnswers = ref([
     a: "Yes, we offer a range of resources and guides in our 'Resources' section, covering topics like project planning, construction budgeting, and tips for finding suitable contractors.",
   },
 ]);
+
+useHead({
+  title: "Frequently Asked Question",
+});
 </script>
 
 <style></style>

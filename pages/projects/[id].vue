@@ -7,38 +7,38 @@
   </div>
   <div class="py-20">
     <Container>
-      <div class="flex flex-col-reverse sm:flex-row gap-6 p-2">
+      <div class="flex flex-col-reverse gap-6 p-2 sm:flex-row">
         <div
           class="flex flex-col items-start justify-center min-w-[300px] bg-myWhite px-6 py-4 border-[#D2D2D2]"
         >
-          <div class="border-b-2 w-full">
-            <p class="text-myBlue font-bold text-base py-3">
+          <div class="w-full border-b-2">
+            <p class="py-3 text-base font-bold text-myBlue">
               Project Information
             </p>
           </div>
 
-          <div class="border-b-2 w-full">
-            <p class="text-myBlue font-bold text-base py-3">Client :</p>
+          <div class="w-full border-b-2">
+            <p class="py-3 text-base font-bold text-myBlue">Client :</p>
             <p class="text-myGray">Choose a Plan Work</p>
           </div>
 
-          <div class="border-b-2 w-full">
-            <p class="text-myBlue font-bold text-base py-3">Location :</p>
+          <div class="w-full border-b-2">
+            <p class="py-3 text-base font-bold text-myBlue">Location :</p>
             <p class="text-myGray">New York United States</p>
           </div>
 
-          <div class="border-b-2 w-full">
-            <p class="text-myBlue font-bold text-base py-3">Project Date :</p>
+          <div class="w-full border-b-2">
+            <p class="py-3 text-base font-bold text-myBlue">Project Date :</p>
             <p class="text-myGray">15 December ,2022</p>
           </div>
 
-          <div class="border-b-2 w-full">
-            <p class="text-myBlue font-bold text-base py-3">Category :</p>
+          <div class="w-full border-b-2">
+            <p class="py-3 text-base font-bold text-myBlue">Category :</p>
             <p class="text-myGray">Service</p>
           </div>
 
-          <div class="border-b-2 w-full">
-            <p class="text-myBlue font-bold text-base py-3">Value :</p>
+          <div class="w-full border-b-2">
+            <p class="py-3 text-base font-bold text-myBlue">Value :</p>
             <p class="text-myGray">$ 2 250 000</p>
           </div>
         </div>
@@ -51,9 +51,9 @@
         </div>
       </div>
 
-      <div class="py-16 px-2">
+      <div class="px-2 py-16">
         <title-custom text="Project Descripation" />
-        <p class="text-myGray mt-3">
+        <p class="mt-3 text-myGray">
           Pellentesque vehicula eros neque, maximus mattis est sagittis Nulla
           facilisi. In sed pretium dynamically target high-payoff intellectual
           capital for customized technologies objectively integrate emerging
@@ -79,7 +79,7 @@
           revolutionary ROI.
         </p>
       </div>
-      <div class="py-16 px-2 flex flex-col gap-4">
+      <div class="flex flex-col gap-4 px-2 py-16">
         <title-custom text="Related Projects" />
         <CardContainer type="projects" :data="projects" />
       </div>
@@ -92,4 +92,8 @@ const route = useRoute();
 const { data } = await useFetch(`/api/projects/${route.params.id}`);
 const { data: projects } = await useFetch(`/api/projects`);
 projects.value = projects.value.filter((p) => p.id > 3);
+
+useHead({
+  title: "Projects " + route.params.id,
+});
 </script>

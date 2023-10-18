@@ -44,4 +44,8 @@
 
 <script setup>
 const { data: teamMembers } = await useFetch("/api/team");
+
+useHead({
+  title: "Team ",
+});
 </script>

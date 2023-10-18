@@ -150,4 +150,8 @@
 <script setup>
 const route = useRoute();
 const { data } = await useFetch(`/api/team/${route.params.id}`);
+
+useHead({
+  title: "Team " + route.params.id,
+});
 </script>
