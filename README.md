@@ -1,75 +1,22 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Logo](https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/white-logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvd2hpdGUtbG9nby5zdmciLCJpYXQiOjE2OTcxODgzMTIsImV4cCI6MzMyMzMxODgzMTJ9.iJ-_gs8u_NUPox_Nai9qx09akFDJAsfR_YBUV4WXv6Y&t=2023-10-13T09%3A11%3A54.321Z)
 
-## Setup
 
-Make sure to install the dependencies:
+## Preview
 
-```bash
-# npm
-npm install
+https://blue-collar.iran.liara.run/
 
-# pnpm
-pnpm install
+![Logo](https://rerjviduejgewfzshqms.supabase.co/storage/v1/object/sign/images/Screenshot%202023-10-14%20182026.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJpbWFnZXMvU2NyZWVuc2hvdCAyMDIzLTEwLTE0IDE4MjAyNi5wbmciLCJpYXQiOjE2OTcyOTUwNTksImV4cCI6MzE3MDU3Mjk1MDU5fQ.5KiEgSS2zlXnMcrTF-jmajvr0T34Na0H-Gyqq_fOyFc&t=2023-10-14T14%3A51%3A01.446Z)
 
-# yarn
-yarn install
+## Installation
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Install blue-collar with npm
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+git clone https://github.com/SajjadSadeh/blue-collar.git
+cd blue-collar
+npm i
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Thank You 🔥❤
+    
